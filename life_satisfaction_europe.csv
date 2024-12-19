@@ -1,0 +1,35 @@
+DATAFLOW,LAST UPDATE,freq,statinfo,unit,isced11,life_sat,sex,age,geo,TIME_PERIOD,OBS_VALUE,OBS_FLAG
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Austria,2022,7.9,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Belgium,2022,7.6,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Bulgaria,2022,5.6,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Switzerland,2022,8.0,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Cyprus,2022,7.2,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Czechia,2022,7.4,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Germany,2022,6.5,u
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Denmark,2022,7.6,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Euro area – 20 countries (from 2023),2022,7.1,e
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Estonia,2022,7.2,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Greece,2022,6.7,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Spain,2022,7.1,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,European Union - 27 countries (from 2020),2022,7.1,e
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Finland,2022,7.9,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,France,2022,7.0,bu
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Croatia,2022,6.8,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Hungary,2022,6.9,u
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Ireland,2022,7.4,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Italy,2022,7.2,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Lithuania,2022,7.1,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Luxembourg,2022,7.2,b
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Latvia,2022,6.8,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Montenegro,2022,5.8,b
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Malta,2022,7.4,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Netherlands,2022,7.7,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Norway,2022,7.7,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Poland,2022,7.7,u
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Portugal,2022,7.0,u
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Romania,2022,7.7,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Serbia,2022,6.1,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Sweden,2022,7.5,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Slovenia,2022,7.6,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Slovakia,2022,7.0,
+ESTAT:ILC_PW01(1.0),04/10/24 23:00:00,Annual,Average,Rating (0-10),All ISCED 2011 levels,Life as a whole,Total,16 years or over,Türkiye,2022,5.4,
