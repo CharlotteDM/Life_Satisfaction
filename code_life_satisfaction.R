@@ -39,15 +39,27 @@ colnames(life_satisfaction_europe)
 life_satisfaction_europe <- life_satisfaction_europe %>%
   mutate(geo = ifelse(geo == "Türkiye", "Turkey", geo))
 
+life_satisfaction_europe <- life_satisfaction_europe %>%
+  mutate(geo = ifelse(geo == "Cyprus", "Cyprus", geo))
+
 
 #map
 #map for Europe
 world <- ne_countries(scale = "medium", returnclass = "sf")
 europe <- world %>%
-  filter(continent == "Europe" | name %in% c("Turkey"))
+  filter(continent == "Europe" | name %in% c("Cyprus", "Turkey"))
+
 
 turcja_geom <- europe %>% filter(name == "Turkey")
 print(turcja_geom)
+
+
+# Adding Cyprus manually to the map data
+cyprus <- world %>%
+  filter(name == "Cyprus")
+
+europe <- bind_rows(europe, cyprus)
+
 
 #joining data with map
 europe_data <- europe %>%
@@ -62,8 +74,8 @@ europe_data <- europe_data %>%
   mutate(
     label_x = ifelse(name == "Norway", 10, label_x),  
     label_y = ifelse(name == "Norway", 62, label_y),
-    label_x = ifelse(name == "Cyprus", 33.2, label_x),  
-    label_y = ifelse(name == "Cyprus", 34.8, label_y),
+    label_x = ifelse(name == "Cyprus", 33.5, label_x),  
+    label_y = ifelse(name == "Cyprus", 34.5, label_y),
     label_x = ifelse(name == "Turkey", 35, label_x),  
     label_y = ifelse(name == "Turkey", 39, label_y)
   )
@@ -71,6 +83,12 @@ europe_data <- europe_data %>%
 #debugging
 missing_countries <- europe$name[!europe$name %in% life_satisfaction_europe$geo]
 print(missing_countries)
+
+print(life_satisfaction_europe %>% filter(geo == "Cyprus"))
+
+print(europe_data %>% filter(name == "Norway") %>% select(name, label_x, label_y))
+
+
 
 # vizualization
 map <- ggplot(europe_data) +
@@ -94,6 +112,3 @@ map <- ggplot(europe_data) +
     ) +
   coord_sf(xlim = c(-30, 40), ylim = c(30, 75), expand = FALSE)
 
-
-unique(europe$name)
-unique(life_satisfaction_europe$geo)
