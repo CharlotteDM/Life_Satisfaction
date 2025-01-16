@@ -1,0 +1,39 @@
+DATAFLOW,LAST UPDATE,freq,unit,spdeps,geo,TIME_PERIOD,OBS_VALUE,OBS_FLAG
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Albania,2022,12.1,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Austria,2022,30.38,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Bosnia and Herzegovina,2022,18.79,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Belgium,2022,29.03,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Bulgaria,2022,18.71,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Switzerland,2022,28.73,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Cyprus,2022,20.98,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Czechia,2022,19.94,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Germany,2022,30.01,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Denmark,2022,28.06,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Euro area - 19 countries  (2015-2022),2022,28.99,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Euro area – 20 countries (from 2023),2022,28.95,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Estonia,2022,15.74,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Greece,2022,24.29,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Spain,2022,25.87,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,European Union - 27 countries (from 2020),2022,27.98,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Finland,2022,30.08,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,France,2022,33.98,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Croatia,2022,20.67,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Hungary,2022,16.72,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Ireland,2022,11.42,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Iceland,2022,25.84,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Italy,2022,29.77,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Lithuania,2022,16.59,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Luxembourg,2022,21.95,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Latvia,2022,17.73,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Montenegro,2022,18.63,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Malta,2022,14.21,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Netherlands,2022,27.12,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Norway,2022,20.54,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Poland,2022,21.12,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Portugal,2022,24.67,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Romania,2022,16.36,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Serbia,2022,19.48,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Sweden,2022,27.23,p
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Slovenia,2022,24.25,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Slovakia,2022,18.23,
+ESTAT:TPS00098(1.0),07/11/24 23:00:00,Annual,Percentage of gross domestic product (GDP),Total,Türkiye,2022,8.6,

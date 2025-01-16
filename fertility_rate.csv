@@ -1,0 +1,43 @@
+DATAFLOW,LAST UPDATE,freq,unit,age,agedef,geo,TIME_PERIOD,OBS_VALUE,OBS_FLAG
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Albania,2022,1.20643,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Austria,2022,1.40927,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Belgium,2022,1.52949,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Bulgaria,2022,1.65470,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Switzerland,2022,1.38788,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Cyprus,2022,1.36844,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Czechia,2022,1.63800,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Germany,2022,1.45567,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Germany including former GDR,2022,1.45567,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Denmark,2022,1.55339,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Euro area - 19 countries  (2015-2022),2022,1.45041,bp
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Euro area – 20 countries (from 2023),2022,1.45129,bp
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Estonia,2022,1.40772,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,European Free Trade Association,2022,1.40605,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Greece,2022,1.31524,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Spain,2022,1.15727,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,European Union - 27 countries (from 2020),2022,1.45536,bep
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Finland,2022,1.31606,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,France,2022,1.79451,p
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Georgia,2022,1.82621,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Croatia,2022,1.53385,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Hungary,2022,1.55832,b
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Ireland,2022,1.54366,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Iceland,2022,1.58997,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Italy,2022,1.24272,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Liechtenstein,2022,1.47239,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Lithuania,2022,1.27020,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Luxembourg,2022,1.31446,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Latvia,2022,1.47092,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Montenegro,2022,1.77531,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,North Macedonia,2022,1.58476,b
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Malta,2022,1.07786,p
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Netherlands,2022,1.48643,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Norway,2022,1.41016,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Poland,2022,1.28602,b
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Portugal,2022,1.42574,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Romania,2022,1.70883,e
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Serbia,2022,1.59418,b
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Sweden,2022,1.52520,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Slovenia,2022,1.54955,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Slovakia,2022,1.57021,
+ESTAT:DEMO_FRATE(1.0),03/09/24 11:00:00,Annual,Number,Total,Age in completed years,Türkiye,2022,1.62574,

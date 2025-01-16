@@ -1,0 +1,44 @@
+DATAFLOW,LAST UPDATE,freq,unit,na_item,geo,TIME_PERIOD,OBS_VALUE,OBS_FLAG
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Albania,2022,18068.1,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Austria,2022,448007.4,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Bosnia and Herzegovina,2022,23324.1,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Belgium,2022,563543.6,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Bulgaria,2022,86082.4,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Switzerland,2022,787386.5,p
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Cyprus,2022,29415.7,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Czechia,2022,286976.8,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Germany,2022,3953850.0,p
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Denmark,2022,382309.3,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023)",2022,13656420.8,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Euro area - 12 countries (2001-2006),2022,13301739.6,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Euro area - 19 countries  (2015-2022),2022,13656420.8,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Euro area – 20 countries (from 2023),2022,13724032.3,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Estonia,2022,36442.8,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Greece,2022,207854.2,p
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Spain,2022,1373629.0,p
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,European Union - 27 countries (from 2020),2022,16143751.6,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Finland,2022,266135.0,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,France,2022,2655435.0,p
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Croatia,2022,67611.5,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Hungary,2022,169096.1,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Ireland,2022,520935.3,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Iceland,2022,27362.4,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Italy,2022,1997054.9,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Liechtenstein,2022,6996.1,e
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Lithuania,2022,67455.5,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Luxembourg,2022,77529.0,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Latvia,2022,36103.7,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Montenegro,2022,5924.0,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,North Macedonia,2022,13243.2,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Malta,2022,18266.2,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Netherlands,2022,993820.0,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Norway,2022,565021.9,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Poland,2022,661712.3,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Portugal,2022,243957.1,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Romania,2022,281761.4,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Serbia,2022,63501.1,p
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Sweden,2022,551781.0,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Slovenia,2022,56908.8,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Slovakia,2022,110088.6,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Türkiye,2022,862309.9,
+ESTAT:NAMA_10_GDP(1.0),15/01/25 23:00:00,Annual,"Current prices, million euro",Gross domestic product at market prices,Kosovo*,2022,8895.7,

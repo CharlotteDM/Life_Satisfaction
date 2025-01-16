@@ -1,0 +1,41 @@
+DATAFLOW,LAST UPDATE,freq,unit,sex,age,geo,TIME_PERIOD,OBS_VALUE,OBS_FLAG
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Albania,2022,79.1,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Austria,2022,81.4,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Belgium,2022,81.8,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Bulgaria,2022,74.2,b
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Switzerland,2022,83.7,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Cyprus,2022,81.6,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Czechia,2022,79.0,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Germany,2022,80.7,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Germany including former GDR,2022,80.7,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Denmark,2022,81.3,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Euro area - 19 countries  (2015-2022),2022,81.7,bp
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Euro area – 20 countries (from 2023),2022,81.6,bp
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Estonia,2022,78.1,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,European Free Trade Association,2022,83.2,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Greece,2022,80.8,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Spain,2022,83.2,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,European Union - 27 countries (from 2020),2022,80.6,bep
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Finland,2022,81.2,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,France,2022,82.3,p
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Georgia,2022,73.7,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Croatia,2022,77.7,b
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Hungary,2022,76.0,b
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Ireland,2022,82.6,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Iceland,2022,82.1,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Italy,2022,82.8,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Liechtenstein,2022,83.9,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Lithuania,2022,75.8,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Luxembourg,2022,83.0,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Latvia,2022,74.5,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Malta,2022,82.4,p
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Netherlands,2022,81.7,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Norway,2022,82.5,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Poland,2022,77.2,b
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Portugal,2022,81.8,bp
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Romania,2022,75.1,e
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Serbia,2022,75.2,b
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Sweden,2022,83.1,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Slovenia,2022,81.3,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Slovakia,2022,77.0,
+ESTAT:DEMO_MLEXPEC(1.0),04/12/24 23:00:00,Annual,Year,Total,Less than 1 year,Türkiye,2022,76.3,

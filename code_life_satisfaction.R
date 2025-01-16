@@ -112,3 +112,8 @@ map <- ggplot(europe_data) +
     ) +
   coord_sf(xlim = c(-30, 40), ylim = c(30, 75), expand = FALSE)
 
+
+
+gdp <- read.csv("Life_Satisfaction/gross_domestic_product_miilioneuro.csv", stringsAsFactors = FALSE)
+
+
