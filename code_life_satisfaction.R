@@ -157,8 +157,54 @@ common_columns <- c("geo")
 
 combined_data <- Reduce(function(x, y) merge(x, y, by = common_columns, all = TRUE), standardized_datasets)
 
-# Display the combined data
-print(head(combined_data))
+# Removing rows with NA
+combined_data <- na.omit(combined_data)
+
+# Excluding rows starting with "Euro area" and "European Union"
+combined_data <- combined_data %>%
+  filter(!grepl("^Euro area|^European Union", geo))
+
+# Drop geo column for correlation analysis
+correlation_data <- combined_data %>% select(-geo)
+
+# Calculate correlation matrix
+correlation_matrix <- cor(correlation_data)
+
+# Drawing corrplot
+corrplot(correlation_matrix, method = "color", type = "upper", 
+         tl.col = "black", tl.srt = 45, addCoef.col = "black", 
+         number.cex = 0.7, tl.cex = 0.7, col = colorRampPalette(c("blue", "white", "red"))(200))
+
+
+############----##########
+# Data preparation without standardization
+datasets <- list(
+  gdp = gdp,
+  healthcare_expenditure = healthcare_expenditure,
+  unemployment_rate = unemployment_rate,
+  expenditure_on_social_protection = expenditure_on_social_protection,
+  victims_homicide_sexexploitation = victims_homicide_sexexploitation,
+  life_expectancy = life_expectancy,
+  fertility_rate = fertility_rate,
+  total_incomes_median = total_incomes_median,
+  pollution = pollution,
+  noise = noise,
+  life_satisfaction = life_satisfaction_europe
+)
+
+# Select relevant columns without standardization
+prepared_datasets <- lapply(names(datasets), function(name) {
+  df <- datasets[[name]]
+  if ('OBS_VALUE' %in% names(df)) {
+    df <- df %>% select(geo, OBS_VALUE) %>% rename(!!name := OBS_VALUE)
+  }
+  return(df)
+})
+
+# Function for making one data frame by country
+common_columns <- c("geo")
+
+combined_data <- Reduce(function(x, y) merge(x, y, by = common_columns, all = TRUE), prepared_datasets)
 
 # Removing rows with NA
 combined_data <- na.omit(combined_data)
@@ -173,5 +219,12 @@ correlation_data <- combined_data %>% select(-geo)
 # Calculate correlation matrix
 correlation_matrix <- cor(correlation_data)
 
-# Display the correlation matrix
-print(correlation_matrix)
+# Drawing corrplot
+library(corrplot)
+plot.new()  # Clear the graphics device
+corrplot(correlation_matrix, method = "color", type = "upper", 
+         tl.col = "black", tl.srt = 45, addCoef.col = "black", 
+         number.cex = 0.7, tl.cex = 0.7, 
+         col = colorRampPalette(c("blue", "white", "red"))(200))
+
+
