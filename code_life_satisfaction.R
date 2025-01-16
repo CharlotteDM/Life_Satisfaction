@@ -113,7 +113,55 @@ map <- ggplot(europe_data) +
   coord_sf(xlim = c(-30, 40), ylim = c(30, 75), expand = FALSE)
 
 
+#Adding data for corrplot and fiuture analysis
+gdp <- read.csv("gross_domestic_product_miilioneuro.csv", stringsAsFactors = FALSE)
+healthcare_expenditure <- read.csv("total_heathcare_expenditure_millioneuro.csv", stringsAsFactors = F)
+unemployment_rate <- read.csv("total_unemployment_rate_thosandperson .csv", stringsAsFactors = F)
+expenditure_on_social_protection <- read.csv("expenditure_on_spcial_protection_percentageofGDP.csv", stringsAsFactors = F)
+victims_homicide_sexexploitation <- read.csv("victims_of_homicide_and_sex_exploitation.csv", stringsAsFactors = F)
+life_expectancy <- read.csv("life_expectancy.csv", stringsAsFactors = F)
+fertility_rate <- read.csv("fertility_rate.csv", stringsAsFactors = F)
+total_incomes_median <- read.csv("total_incomes_median_euro.csv", stringsAsFactors = F)
+pollution <- read.csv("polution_percentage_2023.csv", stringsAsFactors = F )
+noise <- read.csv("noise_pollution_percentage_2023.csv", stringsAsFactors = F)
 
-gdp <- read.csv("Life_Satisfaction/gross_domestic_product_miilioneuro.csv", stringsAsFactors = FALSE)
+
+#data standarization
+datasets <- list(
+  gdp = gdp,
+  healthcare_expenditure = healthcare_expenditure,
+  unemployment_rate = unemployment_rate,
+  expenditure_on_social_protection = expenditure_on_social_protection,
+  victims_homicide_sexexploitation = victims_homicide_sexexploitation,
+  life_expectancy = life_expectancy,
+  fertility_rate = fertility_rate,
+  total_incomes_median = total_incomes_median,
+  pollution = pollution,
+  noise = noise,
+  life_satisfaction = life_satisfaction_europe
+)
+
+# Standardize and rename columns
+standardized_datasets <- lapply(names(datasets), function(name) {
+  df <- datasets[[name]]
+  if ('OBS_VALUE' %in% names(df)) {
+    df <- df %>% mutate(!!paste0(name, "_std") := scale(OBS_VALUE))  # Nowa kolumna standaryzowana
+    df <- df %>% select(geo, TIME_PERIOD, !!paste0(name, "_std"))   # Zachowaj tylko potrzebne kolumny
+  }
+  return(df)
+})
+
+# Function for making one data frame by country
+common_columns <- c("geo", "TIME_PERIOD")
+
+combined_data <- Reduce(function(x, y) merge(x, y, by = common_columns, all = TRUE), standardized_datasets)
+
+# Display the combined data
+print(combined_data)
+
+head(combined_data)
+
+
+
 
 
