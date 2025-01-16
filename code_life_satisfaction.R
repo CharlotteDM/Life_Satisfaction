@@ -24,6 +24,7 @@ library(stars)
 #library(eurostat)
 library(rnaturalearth)
 library(rnaturalearthdata)
+library(corrplot)
 
 path <- dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(path)
@@ -146,22 +147,31 @@ standardized_datasets <- lapply(names(datasets), function(name) {
   df <- datasets[[name]]
   if ('OBS_VALUE' %in% names(df)) {
     df <- df %>% mutate(!!paste0(name, "_std") := scale(OBS_VALUE))  # Nowa kolumna standaryzowana
-    df <- df %>% select(geo, TIME_PERIOD, !!paste0(name, "_std"))   # Zachowaj tylko potrzebne kolumny
+    df <- df %>% select(geo, !!paste0(name, "_std"))   # Zachowaj tylko potrzebne kolumny, bez TIME_PERIOD
   }
   return(df)
 })
 
 # Function for making one data frame by country
-common_columns <- c("geo", "TIME_PERIOD")
+common_columns <- c("geo")
 
 combined_data <- Reduce(function(x, y) merge(x, y, by = common_columns, all = TRUE), standardized_datasets)
 
 # Display the combined data
-print(combined_data)
+print(head(combined_data))
 
-head(combined_data)
+# Removing rows with NA
+combined_data <- na.omit(combined_data)
 
+# Excluding rows starting with "Euro area" and "European Union"
+combined_data <- combined_data %>%
+  filter(!grepl("^Euro area|^European Union", geo))
 
+# Drop geo column for correlation analysis
+correlation_data <- combined_data %>% select(-geo)
 
+# Calculate correlation matrix
+correlation_matrix <- cor(correlation_data)
 
-
+# Display the correlation matrix
+print(correlation_matrix)
