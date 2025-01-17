@@ -207,18 +207,22 @@ corrplot(
 
 # Add the main title, closer to the plot
 title(
-  main = "Correlation Matrix of Life Satisfaction and Socioeconomic\nVariables in European Countries",
-  line = -1.5,
+  main = "Correlation Matrix of Life Satisfaction and Socioeconomic Variables \nin European Countries",
+  line = -14,
   cex.main = 1.5  
 )
 
 # Add a subtitle with data source and years
 title(
-  sub = "Data Source: Eurostat.\nMost data from 2022, except Pollution and Noise (2023)",
-  line = 1, 
+  sub = "Data Source: Eurostat.",
+  line = 3, 
   cex.sub = 0.8  
 )
 
-
+# Add additional information below the plot
+mtext(
+  "Most data from 2022, except Pollution and Noise (2023). \nData standardized; Spearman correlation used due to non-normal distribution",
+  side = 1, line = 4.2, cex = 0.6
+)
 
 #
