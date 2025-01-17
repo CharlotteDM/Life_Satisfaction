@@ -142,6 +142,8 @@ datasets <- list(
   life_satisfaction = life_satisfaction_europe
 )
 
+str(datasets)
+
 # Standardize and rename columns
 standardized_datasets <- lapply(names(datasets), function(name) {
   df <- datasets[[name]]
@@ -176,13 +178,47 @@ print(shapiro_results)
 
 # Calculate Spearman correlation matrix
 correlation_matrix_spearman <- cor(correlation_data, method = "spearman")
+str(correlation_matrix_spearman)
 
-# Drawing corrplot
-corrplot(correlation_matrix_spearman, method = "color", type = "upper", 
-         tl.col = "black", tl.srt = 45, addCoef.col = "black", 
-         number.cex = 0.7, tl.cex = 0.7, 
-         col = colorRampPalette(c("blue", "white", "red"))(200))
+#new variable names
+new_variable_names <- c("GDP", "Healthcare Expenditure", "Unemployment Rate", 
+                        "Social Protection Expenditure", "Homicide & Sex Exploitation Victims", 
+                        "Life Expectancy", "Fertility Rate", "Median Income", 
+                        "Pollution", "Noise", "Life Satisfaction")
 
-# Adding title and data source
-title(main = "Spearman Correlation Matrix", sub = "Data Source: Eurostat")
+colnames(correlation_matrix_spearman) <- new_variable_names
+rownames(correlation_matrix_spearman) <- new_variable_names
 
+
+
+# Drawing corrplot with improved colors and larger size
+corrplot(
+  correlation_matrix_spearman,
+  method = "color",
+  type = "upper",
+  col = colorRampPalette(c("blue", "white", "red"))(200),  
+  tl.col = "black",  
+  tl.srt = 45,       
+  addCoef.col = "black",  
+  number.cex = 0.7,  
+  tl.cex = 0.7,     
+  mar = c(1, 1, 3, 1)
+)
+
+# Add the main title, closer to the plot
+title(
+  main = "Correlation Matrix of Life Satisfaction and Socioeconomic\nVariables in European Countries",
+  line = -1.5,
+  cex.main = 1.5  
+)
+
+# Add a subtitle with data source and years
+title(
+  sub = "Data Source: Eurostat.\nMost data from 2022, except Pollution and Noise (2023)",
+  line = 1, 
+  cex.sub = 0.8  
+)
+
+
+
+#
