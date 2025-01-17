@@ -166,6 +166,8 @@ combined_data <- na.omit(combined_data)
 combined_data <- combined_data %>%
   filter(!grepl("^Euro area|^European Union", geo))
 
+str(combined_data)
+
 # Drop geo column for correlation analysis
 correlation_data <- combined_data %>% select(-geo)
 
@@ -225,4 +227,27 @@ mtext(
   side = 1, line = 4.2, cex = 0.6
 )
 
-#
+# Prepare regression data
+regression_model <- lm(
+  life_satisfaction_std ~ gdp_std + healthcare_expenditure_std + 
+    unemployment_rate_std + expenditure_on_social_protection_std + 
+    victims_homicide_sexexploitation_std + life_expectancy_std + 
+    fertility_rate_std + total_incomes_median_std + pollution_std + noise_std,
+  data = combined_data
+)
+
+summary(regression_model)
+par(mfrow = c(2, 2))  # Arrange diagnostic plots
+plot(regression_model)
+
+shapiro.test(residuals(regression_model)) #not normal distribution
+library(lmtest)
+bptest(regression_model)
+
+#reduction of predictors
+reduced_model <- lm(
+  life_satisfaction_std ~ healthcare_expenditure_std + unemployment_rate_std,
+  data = combined_data
+)
+summary(reduced_model)
+
