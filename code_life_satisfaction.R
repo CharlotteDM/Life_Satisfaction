@@ -251,3 +251,18 @@ reduced_model <- lm(
 )
 summary(reduced_model)
 
+#another regression for variables
+model1 <- lm(
+  life_satisfaction_std ~ gdp_std,
+  data = combined_data
+)
+summary(model1)
+
+model2 <- lm(
+  life_satisfaction_std ~ healthcare_expenditure_std,
+  data = combined_data
+)
+summary(model2)
+
+
+
